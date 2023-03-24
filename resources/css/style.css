@@ -1,0 +1,155 @@
+:root{
+    --backgroundColor: #F5F6FA;
+    --vanillaColor: #f2f2f2; 
+    --accentColor: #C3DBF5 ;
+    --textColor:#8590AA;
+    --borderColor: #FFFFFF;
+    --grayColor: #303030;
+    --orangeColor: #ff8c00;
+    --navColor: #323B59;
+    
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+    background-color: var(--backgroundColor);
+} 
+
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    font-size: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text-shadow-custom {
+    text-shadow:  5px 5px 11px;
+    color: #323B59; 
+}
+
+.custom-body-height{
+    min-height: 70vh;
+}
+
+.footer{
+    background-color: var(--navColor);
+    position: static;
+    bottom: 0px;
+}
+
+a {
+    color: var(--orangeColor);
+}
+
+.mini-imgs{
+    width: 300px;
+    height: 150px;
+}
+
+.color-icons-custom{
+    color: var(--orangeColor);
+    /* background-color: #E8F0FE; */
+    padding: 10px;
+}
+.form-width{
+    padding: 0;
+    margin: 0;
+    min-width: 15rem;
+    min-height: 2.5rem;
+    border: solid 2px var(--accentColor);
+    outline: none;
+}
+
+.table-custom {
+    border: solid 2px var(--accentColor);
+    background-color: var(--navColor);
+}
+.detail-page-border{
+  border-bottom: 1px solid var(--textColor);
+}
+
+@media screen and (max-width: 700px){
+    .mini-imgs{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        padding-right: 50px;
+    }
+  }
+
+.form-custom{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;         
+}
+
+.very_unlikely{
+    width: 10%;
+    background-color: green !important;
+}
+
+.unlikely{
+    width: 25%;
+    background-color: greenyellow !important;
+}
+
+.possible{
+    width: 50%;
+    background-color: yellow !important; 
+}
+
+.likely{
+    width: 75%;
+    background-color: orangered !important;
+}
+
+.very_likely{
+    width: 100%;
+    background-color: red !important;
+}
+
+.img-card{
+    width: 100% !important;
+    height: 20vw !important;
+    object-fit: contain !important;
+}
+
+.btn-revisor{
+    width: 5rem;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 7px;
+    text-transform: capitalize;
+    border-radius: 0.25rem;
+}
+
+.header-revisor{
+    box-shadow: 5px 10px 10px 0px rgba(38, 38, 38, 0.15);
+    /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important; */
+}
+.text-homepage-custom p{
+    color: var(--navColor);
+}

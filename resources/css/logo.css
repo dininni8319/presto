@@ -1,0 +1,10 @@
+ .logo
+ {
+    height: 45px;
+    color: var(--orangeColor);
+}
+
+.footerlogo
+{
+    height: 65px;
+}
